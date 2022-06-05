@@ -66,7 +66,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1304, 126);
+            this.panel3.Size = new System.Drawing.Size(1725, 126);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -75,7 +75,7 @@
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.AutoSize = true;
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.Location = new System.Drawing.Point(1138, 3);
+            this.panel4.Location = new System.Drawing.Point(1559, 3);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(122, 113);
             this.panel4.TabIndex = 2;
@@ -91,7 +91,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 126);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(190, 634);
+            this.panel1.Size = new System.Drawing.Size(190, 788);
             this.panel1.TabIndex = 3;
             // 
             // indicator
@@ -282,9 +282,9 @@
             this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(69)))));
             this.richTextBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.richTextBox2.Location = new System.Drawing.Point(1030, 391);
+            this.richTextBox2.Location = new System.Drawing.Point(1199, 326);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(230, 340);
+            this.richTextBox2.Size = new System.Drawing.Size(600, 550);
             this.richTextBox2.TabIndex = 16;
             this.richTextBox2.Text = "";
             // 
@@ -369,7 +369,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(1304, 760);
+            this.ClientSize = new System.Drawing.Size(1725, 914);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);

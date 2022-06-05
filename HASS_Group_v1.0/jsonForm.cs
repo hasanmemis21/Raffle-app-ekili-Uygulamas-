@@ -62,5 +62,10 @@ namespace HASS_Group_v1._0
             json.Show();
             this.Hide();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
