@@ -209,7 +209,7 @@ namespace HASS_Group_v1._0
                 }
                 File.AppendAllText(fileName, dizi+Environment.NewLine);
             }
-            File.AppendAllText(fileName, "\n*** Çekiliş "+ today.ToString("dd'/'MM'/'yyyy", CultureInfo.InvariantCulture) +" tarihinde adil bir şekilde HASS Giveaway tarafından yapılmıştır. © ***\n");
+            File.AppendAllText(fileName, "\n*** Çekiliş "+ today.ToString("dd'/'MM'/'yyyy", CultureInfo.InvariantCulture) +" tarihinde, adil bir şekilde HASS Giveaway tarafından yapılmıştır. © ***\n");
         }
     }
 }

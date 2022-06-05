@@ -205,7 +205,7 @@ namespace HASS_Group_v1._0
             
             jsonForm jsonForm= new jsonForm();
             jsonForm.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void bunifuTileButton8_Click(object sender, EventArgs e)

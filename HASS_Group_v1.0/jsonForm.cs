@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -119,6 +120,7 @@ namespace HASS_Group_v1._0
 
         private void bunifuTileButton3_Click(object sender, EventArgs e)
         {
+            DateTime today = DateTime.Today;
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             string fileName = path + @"\hass_giveaway_cikti_json.txt";
             File.Delete(fileName);
@@ -156,7 +158,8 @@ namespace HASS_Group_v1._0
                 }
                 File.AppendAllText(fileName, dizi + Environment.NewLine);
             }
-            File.AppendAllText(fileName, "\n*** Çekiliş adil bir şekilde HASS Giveaway tarafından yapılmıştır. © ***");
+            File.AppendAllText(fileName, "\n*** Çekiliş "+ today.ToString("dd'/'MM'/'yyyy", CultureInfo.InvariantCulture) +" tarihinde, adil bir şekilde HASS Giveaway tarafından yapılmıştır. © ***\n");
+
         }
     }
 }
