@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(jsonForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -51,6 +51,7 @@
             this.bunifuTileButton15 = new Bunifu.Framework.UI.BunifuTileButton();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -204,7 +205,7 @@
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(1613, 254);
+            this.label7.Location = new System.Drawing.Point(1759, 256);
             this.label7.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 54);
@@ -290,16 +291,16 @@
             // 
             // dataGridView3
             // 
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView3.Location = new System.Drawing.Point(311, 326);
             this.dataGridView3.Name = "dataGridView3";
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle28;
             this.dataGridView3.Size = new System.Drawing.Size(600, 550);
             this.dataGridView3.TabIndex = 15;
             // 
@@ -364,12 +365,32 @@
             this.richTextBox8.TabIndex = 21;
             this.richTextBox8.Text = "Yedek Sayısı Seçiniz";
             // 
+            // bunifuTileButton3
+            // 
+            this.bunifuTileButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.bunifuTileButton3.color = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.bunifuTileButton3.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTileButton3.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuTileButton3.ForeColor = System.Drawing.Color.White;
+            this.bunifuTileButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuTileButton3.Image")));
+            this.bunifuTileButton3.ImagePosition = 18;
+            this.bunifuTileButton3.ImageZoom = 50;
+            this.bunifuTileButton3.LabelPosition = 36;
+            this.bunifuTileButton3.LabelText = "Çıktı Al";
+            this.bunifuTileButton3.Location = new System.Drawing.Point(981, 807);
+            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuTileButton3.Name = "bunifuTileButton3";
+            this.bunifuTileButton3.Size = new System.Drawing.Size(100, 100);
+            this.bunifuTileButton3.TabIndex = 22;
+            // 
             // jsonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1892, 964);
+            this.Controls.Add(this.bunifuTileButton3);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.richTextBox9);
@@ -423,5 +444,6 @@
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton15;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.RichTextBox richTextBox8;
+        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
     }
 }

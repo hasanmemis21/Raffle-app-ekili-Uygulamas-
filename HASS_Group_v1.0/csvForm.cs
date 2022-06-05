@@ -65,5 +65,10 @@ namespace HASS_Group_v1._0
             xml.Show();
             this.Hide();
         }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
