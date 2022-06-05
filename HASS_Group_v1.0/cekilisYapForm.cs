@@ -33,22 +33,28 @@ namespace HASS_Group_v1._0
         private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
-            groupBox1.Visible = true;
-            groupBox2.Visible = false;
+            
+            
         }
 
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
-            groupBox2.Visible = true;
+            
             
             MoveIndicator((Control)sender);
-            groupBox1.Visible = false;
+            
+            csvForm csvForm = new csvForm();
+            csvForm.Show();
+            this.Hide();
         }
 
         private void bunifuTileButton5_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
-            groupBox1.Visible=false;
+            
+            xmlForm xmlForm = new xmlForm();
+            xmlForm.Show();
+            this.Hide();
 
         }
 
@@ -60,13 +66,13 @@ namespace HASS_Group_v1._0
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
-            groupBox1.Visible = false;
+            
         }
 
         private void bunifuTileButton6_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
-            groupBox1.Visible = false;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -76,6 +82,10 @@ namespace HASS_Group_v1._0
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            int w = Screen.PrimaryScreen.Bounds.Width;
+            int h = Screen.PrimaryScreen.Bounds.Height;
+            this.Location = new Point(0, 0);
+            this.Size = new Size(w, h);
             dtgList.ColumnCount = 2;
             dtgList.Columns[0].Name = "Id";
             dtgList.Columns[1].Name = "Ad Soyad";
@@ -185,14 +195,17 @@ namespace HASS_Group_v1._0
         private void bunifuTileButton3_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
-            groupBox1.Visible = false;
+            
 
         }
 
         private void bunifuTileButton4_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
-            groupBox1.Visible = false;
+            
+            jsonForm jsonForm= new jsonForm();
+            jsonForm.Show();
+            this.Close();
         }
 
         private void bunifuTileButton8_Click(object sender, EventArgs e)
@@ -212,8 +225,8 @@ namespace HASS_Group_v1._0
 
         private void bunifuTileButton10_Click(object sender, EventArgs e)
         {
-            Form2 f2=new Form2();
-            f2.ShowDialog();
+            
+            
         }
 
         private void bunifuTileButton8_Click_2(object sender, EventArgs e)
