@@ -78,6 +78,8 @@ namespace HASS_Group_v1._0
             openFileDialog1.ShowDialog();
             pathBox.Text = openFileDialog1.FileName;
             katilimciDataTablo(pathBox.Text);
+            int katilimci = katilimciTablo.RowCount-1;
+            label2.Text= katilimci.ToString();
         }
         private void katilimciDataTablo(string filePath)
         {

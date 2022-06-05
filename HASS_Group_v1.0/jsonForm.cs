@@ -80,6 +80,8 @@ namespace HASS_Group_v1._0
                 var result = JsonConvert.DeserializeObject<List<Users>>(json);
                 katilimciTablosu.DataSource = result;
             }
+            int katilimci = katilimciTablosu.RowCount;
+            label7.Text = katilimci.ToString();
         }
 
         private void bunifuTileButton18_Click(object sender, EventArgs e)
