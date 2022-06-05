@@ -215,5 +215,30 @@ namespace HASS_Group_v1._0
             Form2 f2=new Form2();
             f2.ShowDialog();
         }
+
+        private void bunifuTileButton8_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTileButton9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
