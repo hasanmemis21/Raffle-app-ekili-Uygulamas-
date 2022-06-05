@@ -1318,7 +1318,7 @@
   <data name="bunifuTileButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAADsNAAA7DQFhD4DuAAAAB3RJ
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAADsMAAA7DAGzSGIKAAAAB3RJ
         TUUH5AYDDS4M1p1/LgAADgtJREFUeF7tnQlwFVUWhjNL1VhaAmO5IQ5bQIZlRgVkRhABx1FAdHR0lMIa
         lS0hKohC2HUEFRdcGBEEURnZRMRRRwRxAbNCiBDClrBFhAACSQhbIOud83duk+5+5710AnRevT5/1Vch
         5HXf9py/7z33dEeiRCKRSCQSibxUj3lHonoszIvqsSD/QqIj0Y8YQsQJ54VBxB1Ekx7z839JX3Um6kC3
@@ -1382,4 +1382,7 @@
         QiQSiUQikf8UFfV//LFR2j8lm7sAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
