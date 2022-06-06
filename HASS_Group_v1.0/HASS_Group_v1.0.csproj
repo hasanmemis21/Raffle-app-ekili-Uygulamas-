@@ -178,6 +178,7 @@
     <Compile Include="xmlForm.Designer.cs">
       <DependentUpon>xmlForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="xmlUser.cs" />
     <EmbeddedResource Include="cekilisYapForm.resx">
       <DependentUpon>cekilisYapForm.cs</DependentUpon>
     </EmbeddedResource>
