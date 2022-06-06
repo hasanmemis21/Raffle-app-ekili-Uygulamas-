@@ -23,22 +23,16 @@ namespace HASS_Group_v1._0
             indicator.Top = control.Top;
             indicator.Height = control.Height;
         }
-
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
-
         }
-
         private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
             Form1 form1 = new Form1();
             form1.Show();
             this.Hide();
-
-
         }
-
         private void csvForm_Load(object sender, EventArgs e)
         {
             int w = Screen.PrimaryScreen.Bounds.Width;
@@ -46,7 +40,6 @@ namespace HASS_Group_v1._0
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h);
         }
-
         private void bunifuTileButton4_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
@@ -54,12 +47,9 @@ namespace HASS_Group_v1._0
             json.Show();
             this.Hide();
         }
-
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
-
         }
-
         private void bunifuTileButton5_Click(object sender, EventArgs e)
         {
             MoveIndicator((Control)sender);
@@ -67,19 +57,23 @@ namespace HASS_Group_v1._0
             xml.Show();
             this.Hide();
         }
-
         private void richTextBox4_TextChanged(object sender, EventArgs e)
         {
-
         }
-
         private void bunifuTileButton24_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
             pathBox.Text = openFileDialog1.FileName;
-            katilimciDataTablo(pathBox.Text);
-            int katilimci = katilimciTablo.RowCount-1;
-            label2.Text= katilimci.ToString();
+            try
+            {
+                katilimciDataTablo(pathBox.Text);
+                int katilimci = katilimciTablo.RowCount - 1;
+                label2.Text = katilimci.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, "Yanlış format türünde bir dosya seçtiniz. Lütfen tekrar deneyiniz!", "HATA!", MessageBoxButtons.OK);
+            }
         }
         private void katilimciDataTablo(string filePath)
         {
@@ -87,14 +81,12 @@ namespace HASS_Group_v1._0
             string[] lines = File.ReadAllLines(filePath);
             if (lines.Length > 0)
             {
-                //first line to create header
                 string firstLine = lines[0];
                 string[] headerLabels = firstLine.Split(',');
                 foreach (string headerWord in headerLabels)
                 {
                     dt.Columns.Add(new DataColumn(headerWord));
                 }
-                //For Data
                 for (int i = 1; i < lines.Length; i++)
                 {
                     string[] dataWords = lines[i].Split(',');
@@ -112,38 +104,22 @@ namespace HASS_Group_v1._0
                 katilimciTablo.DataSource = dt;
             }
         }
-        private void kazananDataTablo(List<string> kazananlar, List<string> yedekKazananlar)
+        private void kazananDataTablo(List<string> kazananlar)
         {
             DataTable dt = new DataTable();
             pathBox.Text = openFileDialog1.FileName;
             string[] lines = File.ReadAllLines(pathBox.Text);
             if (lines.Length > 0)
             {
-                //first line to create header
                 string firstLine = lines[0];
                 string[] headerLabels = firstLine.Split(',');
                 foreach (string headerWord in headerLabels)
                 {
                     dt.Columns.Add(new DataColumn(headerWord));
                 }
-                //For Data
                 for (int i = 0; i < kazananlar.Count; i++)
                 {
                     string[] dataWords = kazananlar[i].Split(',');
-                    DataRow dr = dt.NewRow();
-                    int columnIndex = 0;
-                    foreach (string headerWord in headerLabels)
-                    {
-                        dr[headerWord] = dataWords[columnIndex++];
-                    }
-                    dt.Rows.Add(dr);
-                }
-                DataRow bosSutun = dt.NewRow();
-                dt.Rows.Add(bosSutun);
-                dt.Rows.Add("-----", "YEDEK", "TALİHLİLER", "-----");
-                for (int i = 0; i < yedekKazananlar.Count; i++)
-                {
-                    string[] dataWords = yedekKazananlar[i].Split(',');
                     DataRow dr = dt.NewRow();
                     int columnIndex = 0;
                     foreach (string headerWord in headerLabels)
@@ -158,7 +134,36 @@ namespace HASS_Group_v1._0
                 kazananTablo.DataSource = dt;
             }
         }
-
+        private void yedekDataTablo(List<string> yedekKazananlar)
+        {
+            DataTable dt = new DataTable();
+            pathBox.Text = openFileDialog1.FileName;
+            string[] lines = File.ReadAllLines(pathBox.Text);
+            if (lines.Length > 0)
+            {
+                string firstLine = lines[0];
+                string[] headerLabels = firstLine.Split(',');
+                foreach (string headerWord in headerLabels)
+                {
+                    dt.Columns.Add(new DataColumn(headerWord));
+                }
+                for (int i = 0; i < yedekKazananlar.Count; i++)
+                {
+                    string[] dataWords = yedekKazananlar[i].Split(',');
+                    DataRow dr = dt.NewRow();
+                    int columnIndex = 0;
+                    foreach (string headerWord in headerLabels)
+                    {
+                        dr[headerWord] = dataWords[columnIndex++];
+                    }
+                    dt.Rows.Add(dr);
+                }
+            }
+            if (dt.Rows.Count > 0)
+            {
+                yedekTablo.DataSource = dt;
+            }
+        }
         private void bunifuTileButton10_Click(object sender, EventArgs e)
         {
             string[] lines = File.ReadAllLines(pathBox.Text);
@@ -178,14 +183,13 @@ namespace HASS_Group_v1._0
                 yedekLines.Add(list[yedekKura]);
                 list.RemoveAt(yedekKura);
             }
-            kazananDataTablo(kazananLines, yedekLines);
+            kazananDataTablo(kazananLines);
+            yedekDataTablo(yedekLines);
         }
-
         private void kazananSayisi_ValueChanged(object sender, EventArgs e)
         {
             yedekSayisi.Value = kazananSayisi.Value;
         }
-
         private void bunifuTileButton6_Click(object sender, EventArgs e)
         {
             DateTime today = DateTime.Today;
@@ -195,7 +199,7 @@ namespace HASS_Group_v1._0
             FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.Write);
             fs.Close();
             File.AppendAllText(fileName, " ----- AS TALİHLİLER -----\n");
-            for (int j = 0; j < kazananTablo.Rows.Count-1; j++)
+            for (int j = 0; j < kazananTablo.Rows.Count - 1; j++)
             {
                 List<object> ciktiList = new List<object>();
                 for (int k = 0; k < kazananTablo.Columns.Count; k++)
@@ -207,9 +211,47 @@ namespace HASS_Group_v1._0
                 {
                     dizi = $"{dizi} {item}";
                 }
-                File.AppendAllText(fileName, dizi+Environment.NewLine);
+                File.AppendAllText(fileName, dizi + Environment.NewLine);
+            }
+            File.AppendAllText(fileName, "\n ----- YEDEK TALİHLİLER -----\n");
+            for (int j = 0; j < yedekTablo.Rows.Count - 1; j++)
+            {
+                List<object> ciktiList = new List<object>();
+                for (int k = 0; k < kazananTablo.Columns.Count; k++)
+                {
+                    ciktiList.Add(yedekTablo.Rows[j].Cells[k].Value.ToString());
+                }
+                string dizi = "";
+                foreach (var item in ciktiList)
+                {
+                    dizi = $"{dizi} {item}";
+                }
+                File.AppendAllText(fileName, dizi + Environment.NewLine);
             }
             File.AppendAllText(fileName, "\n*** Çekiliş "+ today.ToString("dd'/'MM'/'yyyy", CultureInfo.InvariantCulture) +" tarihinde, adil bir şekilde HASS Giveaway tarafından yapılmıştır. © ***\n");
+        }
+        private void bunifuTileButton9_Click(object sender, EventArgs e)
+        {
+            pathBox.Text = null;
+            katilimciTablo.DataSource = null;
+            kazananTablo.DataSource = null;
+            yedekTablo.DataSource = null;
+            kazananSayisi.Value = 0;
+            yedekSayisi.Value = 0;
+            label2.Text = "0";
+        }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+            switch (MessageBox.Show(this, "Programı kapatmak istediğinize emin misiniz?", "Kapatılıyor..", MessageBoxButtons.YesNo))
+            {
+                case DialogResult.No:
+                    e.Cancel = true;
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
