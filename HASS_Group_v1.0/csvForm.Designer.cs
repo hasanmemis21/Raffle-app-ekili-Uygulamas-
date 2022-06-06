@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(csvForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -45,7 +45,6 @@
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.kazananTablo = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.bunifuTileButton9 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton10 = new Bunifu.Framework.UI.BunifuTileButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -56,6 +55,7 @@
             this.katilimciTablo = new System.Windows.Forms.DataGridView();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.label3 = new System.Windows.Forms.Label();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -199,7 +199,7 @@
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox4.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox4.Location = new System.Drawing.Point(915, 248);
+            this.richTextBox4.Location = new System.Drawing.Point(933, 252);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(235, 40);
             this.richTextBox4.TabIndex = 21;
@@ -212,7 +212,7 @@
             this.kazananSayisi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.kazananSayisi.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.kazananSayisi.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.kazananSayisi.Location = new System.Drawing.Point(719, 216);
+            this.kazananSayisi.Location = new System.Drawing.Point(775, 200);
             this.kazananSayisi.Name = "kazananSayisi";
             this.kazananSayisi.Size = new System.Drawing.Size(85, 29);
             this.kazananSayisi.TabIndex = 20;
@@ -260,8 +260,8 @@
             // 
             // kazananTablo
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kazananTablo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kazananTablo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.kazananTablo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.kazananTablo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.kazananTablo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -269,8 +269,8 @@
             this.kazananTablo.Location = new System.Drawing.Point(311, 326);
             this.kazananTablo.Name = "kazananTablo";
             this.kazananTablo.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.kazananTablo.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.kazananTablo.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.kazananTablo.Size = new System.Drawing.Size(600, 550);
             this.kazananTablo.TabIndex = 15;
             // 
@@ -287,18 +287,6 @@
             this.label1.Size = new System.Drawing.Size(130, 24);
             this.label1.TabIndex = 17;
             this.label1.Text = "Çekiliş Listesi";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox3.Location = new System.Drawing.Point(738, 248);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(235, 40);
-            this.richTextBox3.TabIndex = 16;
-            this.richTextBox3.Text = "Şanslı Sayısı Seçiniz";
             // 
             // bunifuTileButton9
             // 
@@ -360,7 +348,7 @@
             this.yedekSayisi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.yedekSayisi.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.yedekSayisi.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.yedekSayisi.Location = new System.Drawing.Point(953, 213);
+            this.yedekSayisi.Location = new System.Drawing.Point(970, 200);
             this.yedekSayisi.Name = "yedekSayisi";
             this.yedekSayisi.Size = new System.Drawing.Size(85, 29);
             this.yedekSayisi.TabIndex = 9;
@@ -440,12 +428,25 @@
             this.label3.TabIndex = 25;
             this.label3.Text = "Kazanan Listesi";
             // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox3.Location = new System.Drawing.Point(723, 252);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(188, 40);
+            this.richTextBox3.TabIndex = 26;
+            this.richTextBox3.Text = "Kazanan Sayısı Seçiniz";
+            // 
             // csvForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1489, 692);
+            this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.katilimciTablo);
             this.Controls.Add(this.pathBox);
@@ -463,7 +464,6 @@
             this.Controls.Add(this.bunifuTileButton10);
             this.Controls.Add(this.yedekSayisi);
             this.Controls.Add(this.bunifuTileButton9);
-            this.Controls.Add(this.richTextBox3);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "csvForm";
@@ -498,7 +498,6 @@
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
         private System.Windows.Forms.DataGridView kazananTablo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox3;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton9;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton10;
         private System.Windows.Forms.Label label2;
@@ -509,5 +508,6 @@
         private System.Windows.Forms.DataGridView katilimciTablo;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RichTextBox richTextBox3;
     }
 }

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xmlForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -46,13 +46,13 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.bunifuTileButton17 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton18 = new Bunifu.Framework.UI.BunifuTileButton();
             this.label7 = new System.Windows.Forms.Label();
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -194,7 +194,7 @@
             this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox8.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox8.Location = new System.Drawing.Point(915, 248);
+            this.richTextBox8.Location = new System.Drawing.Point(933, 252);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.Size = new System.Drawing.Size(235, 40);
             this.richTextBox8.TabIndex = 21;
@@ -206,7 +206,7 @@
             this.numericUpDown5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown5.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.numericUpDown5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.numericUpDown5.Location = new System.Drawing.Point(953, 213);
+            this.numericUpDown5.Location = new System.Drawing.Point(970, 200);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(85, 29);
             this.numericUpDown5.TabIndex = 20;
@@ -252,16 +252,16 @@
             // 
             // dataGridView3
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView3.Location = new System.Drawing.Point(311, 326);
             this.dataGridView3.Name = "dataGridView3";
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.dataGridView3.Size = new System.Drawing.Size(600, 550);
             this.dataGridView3.TabIndex = 15;
             // 
@@ -289,18 +289,6 @@
             this.richTextBox9.Size = new System.Drawing.Size(600, 550);
             this.richTextBox9.TabIndex = 16;
             this.richTextBox9.Text = "";
-            // 
-            // richTextBox10
-            // 
-            this.richTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.richTextBox10.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox10.Location = new System.Drawing.Point(738, 248);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(235, 40);
-            this.richTextBox10.TabIndex = 16;
-            this.richTextBox10.Text = "Şanslı Sayısı Seçiniz";
             // 
             // bunifuTileButton17
             // 
@@ -361,10 +349,11 @@
             this.numericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown6.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.numericUpDown6.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.numericUpDown6.Location = new System.Drawing.Point(768, 213);
+            this.numericUpDown6.Location = new System.Drawing.Point(775, 200);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(85, 29);
             this.numericUpDown6.TabIndex = 9;
+            this.numericUpDown6.ValueChanged += new System.EventHandler(this.numericUpDown6_ValueChanged);
             // 
             // bunifuTileButton3
             // 
@@ -399,12 +388,25 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Kazanan Listesi";
             // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox3.Location = new System.Drawing.Point(723, 251);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(188, 40);
+            this.richTextBox3.TabIndex = 24;
+            this.richTextBox3.Text = "Kazanan Sayısı Seçiniz";
+            // 
             // xmlForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1849, 908);
+            this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuTileButton3);
             this.Controls.Add(this.dataGridView3);
@@ -418,7 +420,6 @@
             this.Controls.Add(this.richTextBox9);
             this.Controls.Add(this.numericUpDown6);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.richTextBox10);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -456,12 +457,12 @@
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.RichTextBox richTextBox10;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton17;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton18;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox richTextBox3;
     }
 }

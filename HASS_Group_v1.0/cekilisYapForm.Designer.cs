@@ -30,8 +30,8 @@ namespace HASS_Group_v1._0
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.indicator = new System.Windows.Forms.PictureBox();
             this.bunifuTileButton5 = new Bunifu.Framework.UI.BunifuTileButton();
@@ -45,7 +45,6 @@ namespace HASS_Group_v1._0
             this.lblAdaySayisi = new System.Windows.Forms.Label();
             this.bunifuTileButton6 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton7 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.rtxtAdaylar = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dtgList = new System.Windows.Forms.DataGridView();
@@ -54,6 +53,7 @@ namespace HASS_Group_v1._0
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
             this.panel3.SuspendLayout();
@@ -270,18 +270,6 @@ namespace HASS_Group_v1._0
             this.bunifuTileButton7.TabIndex = 15;
             this.bunifuTileButton7.Click += new System.EventHandler(this.bunifuTileButton7_Click);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox1.Location = new System.Drawing.Point(615, 215);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(235, 40);
-            this.richTextBox1.TabIndex = 16;
-            this.richTextBox1.Text = "Şanslı Sayısı Seçiniz";
-            // 
             // rtxtAdaylar
             // 
             this.rtxtAdaylar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(69)))));
@@ -310,16 +298,16 @@ namespace HASS_Group_v1._0
             // 
             // dtgList
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dtgList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dtgList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dtgList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dtgList.Location = new System.Drawing.Point(311, 326);
             this.dtgList.Name = "dtgList";
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.dtgList.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.dtgList.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgList.Size = new System.Drawing.Size(600, 550);
             this.dtgList.TabIndex = 15;
             this.dtgList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgList_CellContentClick);
@@ -369,7 +357,7 @@ namespace HASS_Group_v1._0
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.numericUpDown1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.numericUpDown1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.numericUpDown1.Location = new System.Drawing.Point(835, 180);
+            this.numericUpDown1.Location = new System.Drawing.Point(855, 180);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(85, 29);
             this.numericUpDown1.TabIndex = 20;
@@ -380,7 +368,7 @@ namespace HASS_Group_v1._0
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox2.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox2.Location = new System.Drawing.Point(796, 214);
+            this.richTextBox2.Location = new System.Drawing.Point(818, 215);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(235, 40);
             this.richTextBox2.TabIndex = 21;
@@ -400,12 +388,25 @@ namespace HASS_Group_v1._0
             this.label1.TabIndex = 22;
             this.label1.Text = "Kazanan Listesi";
             // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox3.Location = new System.Drawing.Point(613, 214);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(188, 40);
+            this.richTextBox3.TabIndex = 25;
+            this.richTextBox3.Text = "Kazanan Sayısı Seçiniz";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1877, 944);
+            this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rtxtAdaylar);
             this.Controls.Add(this.richTextBox2);
@@ -419,7 +420,6 @@ namespace HASS_Group_v1._0
             this.Controls.Add(this.label3);
             this.Controls.Add(this.bunifuTileButton6);
             this.Controls.Add(this.bunifuTileButton7);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.nMiktar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -454,7 +454,6 @@ namespace HASS_Group_v1._0
         private System.Windows.Forms.DataGridView dtgList;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RichTextBox rtxtAdaylar;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton7;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton6;
         private System.Windows.Forms.Label lblAdaySayisi;
@@ -463,6 +462,7 @@ namespace HASS_Group_v1._0
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox richTextBox3;
     }
 }
 

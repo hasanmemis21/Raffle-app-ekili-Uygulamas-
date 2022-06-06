@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(jsonForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -45,7 +45,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.bunifuTileButton18 = new Bunifu.Framework.UI.BunifuTileButton();
             this.bunifuTileButton17 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.kazananTablosu = new System.Windows.Forms.DataGridView();
             this.bunifuTileButton16 = new Bunifu.Framework.UI.BunifuTileButton();
@@ -59,6 +58,7 @@
             this.yedekTablosu = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -203,7 +203,7 @@
             this.kazananSayisi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.kazananSayisi.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.kazananSayisi.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.kazananSayisi.Location = new System.Drawing.Point(768, 213);
+            this.kazananSayisi.Location = new System.Drawing.Point(775, 200);
             this.kazananSayisi.Name = "kazananSayisi";
             this.kazananSayisi.Size = new System.Drawing.Size(85, 29);
             this.kazananSayisi.TabIndex = 9;
@@ -264,18 +264,6 @@
             this.bunifuTileButton17.Size = new System.Drawing.Size(128, 129);
             this.bunifuTileButton17.TabIndex = 15;
             // 
-            // richTextBox10
-            // 
-            this.richTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.richTextBox10.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox10.Location = new System.Drawing.Point(738, 248);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(235, 40);
-            this.richTextBox10.TabIndex = 16;
-            this.richTextBox10.Text = "Şanslı Sayısı Seçiniz";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -292,8 +280,8 @@
             // 
             // kazananTablosu
             // 
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kazananTablosu.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kazananTablosu.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
             this.kazananTablosu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.kazananTablosu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.kazananTablosu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -301,8 +289,8 @@
             this.kazananTablosu.Location = new System.Drawing.Point(311, 326);
             this.kazananTablosu.Name = "kazananTablosu";
             this.kazananTablosu.RowHeadersWidth = 51;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.kazananTablosu.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.kazananTablosu.RowsDefaultCellStyle = dataGridViewCellStyle18;
             this.kazananTablosu.Size = new System.Drawing.Size(600, 244);
             this.kazananTablosu.TabIndex = 15;
             // 
@@ -351,7 +339,7 @@
             this.yedekSayisi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.yedekSayisi.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.yedekSayisi.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.yedekSayisi.Location = new System.Drawing.Point(953, 213);
+            this.yedekSayisi.Location = new System.Drawing.Point(970, 200);
             this.yedekSayisi.Name = "yedekSayisi";
             this.yedekSayisi.Size = new System.Drawing.Size(85, 29);
             this.yedekSayisi.TabIndex = 20;
@@ -362,7 +350,7 @@
             this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox8.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox8.Location = new System.Drawing.Point(915, 248);
+            this.richTextBox8.Location = new System.Drawing.Point(933, 252);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.Size = new System.Drawing.Size(235, 40);
             this.richTextBox8.TabIndex = 21;
@@ -416,8 +404,8 @@
             // 
             // yedekTablosu
             // 
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 8.25F);
-            this.yedekTablosu.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Century Gothic", 8.25F);
+            this.yedekTablosu.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
             this.yedekTablosu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.yedekTablosu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.yedekTablosu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -425,8 +413,8 @@
             this.yedekTablosu.Location = new System.Drawing.Point(311, 631);
             this.yedekTablosu.Name = "yedekTablosu";
             this.yedekTablosu.RowHeadersWidth = 51;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.yedekTablosu.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.yedekTablosu.RowsDefaultCellStyle = dataGridViewCellStyle20;
             this.yedekTablosu.RowTemplate.Height = 24;
             this.yedekTablosu.Size = new System.Drawing.Size(600, 244);
             this.yedekTablosu.TabIndex = 15;
@@ -459,12 +447,25 @@
             this.label2.TabIndex = 25;
             this.label2.Text = "Yedek Listesi";
             // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.richTextBox3.ForeColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox3.Location = new System.Drawing.Point(723, 251);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(188, 40);
+            this.richTextBox3.TabIndex = 26;
+            this.richTextBox3.Text = "Kazanan Sayısı Seçiniz";
+            // 
             // jsonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1443, 857);
+            this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.yedekTablosu);
@@ -482,7 +483,6 @@
             this.Controls.Add(this.bunifuTileButton15);
             this.Controls.Add(this.bunifuTileButton18);
             this.Controls.Add(this.bunifuTileButton17);
-            this.Controls.Add(this.richTextBox10);
             this.Controls.Add(this.kazananSayisi);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -518,7 +518,6 @@
         private System.Windows.Forms.Label label7;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton18;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton17;
-        private System.Windows.Forms.RichTextBox richTextBox10;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView kazananTablosu;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton16;
@@ -532,5 +531,6 @@
         private System.Windows.Forms.DataGridView yedekTablosu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
     }
 }
