@@ -52,6 +52,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -384,12 +385,27 @@
             this.bunifuTileButton3.Size = new System.Drawing.Size(100, 100);
             this.bunifuTileButton3.TabIndex = 3;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(318, 286);
+            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(158, 24);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Kazanan Listesi";
+            // 
             // xmlForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1849, 908);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bunifuTileButton3);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.label6);
@@ -446,5 +462,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
+        private System.Windows.Forms.Label label1;
     }
 }

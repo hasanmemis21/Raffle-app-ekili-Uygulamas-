@@ -57,6 +57,8 @@
             this.pathBox = new System.Windows.Forms.TextBox();
             this.katilimciTablosu = new System.Windows.Forms.DataGridView();
             this.yedekTablosu = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -168,7 +170,7 @@
             this.bunifuTileButton2.LabelPosition = 34;
             this.bunifuTileButton2.LabelText = "CSV Formatında Çekiliş";
             this.bunifuTileButton2.Location = new System.Drawing.Point(0, 144);
-            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
             this.bunifuTileButton2.Size = new System.Drawing.Size(190, 121);
             this.bunifuTileButton2.TabIndex = 2;
@@ -189,7 +191,7 @@
             this.bunifuTileButton1.LabelPosition = 43;
             this.bunifuTileButton1.LabelText = "Çekiliş Yap";
             this.bunifuTileButton1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
             this.bunifuTileButton1.Size = new System.Drawing.Size(190, 144);
             this.bunifuTileButton1.TabIndex = 1;
@@ -237,7 +239,7 @@
             this.bunifuTileButton18.LabelPosition = 36;
             this.bunifuTileButton18.LabelText = "Çekilişi Başlat";
             this.bunifuTileButton18.Location = new System.Drawing.Point(439, 159);
-            this.bunifuTileButton18.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuTileButton18.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton18.Name = "bunifuTileButton18";
             this.bunifuTileButton18.Size = new System.Drawing.Size(153, 129);
             this.bunifuTileButton18.TabIndex = 14;
@@ -257,7 +259,7 @@
             this.bunifuTileButton17.LabelPosition = 36;
             this.bunifuTileButton17.LabelText = "Yeni Çekiliş";
             this.bunifuTileButton17.Location = new System.Drawing.Point(586, 159);
-            this.bunifuTileButton17.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuTileButton17.Margin = new System.Windows.Forms.Padding(6);
             this.bunifuTileButton17.Name = "bunifuTileButton17";
             this.bunifuTileButton17.Size = new System.Drawing.Size(128, 129);
             this.bunifuTileButton17.TabIndex = 15;
@@ -318,7 +320,7 @@
             this.bunifuTileButton16.LabelPosition = 36;
             this.bunifuTileButton16.LabelText = "Katılımcı Sayısı";
             this.bunifuTileButton16.Location = new System.Drawing.Point(1707, 138);
-            this.bunifuTileButton16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuTileButton16.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuTileButton16.Name = "bunifuTileButton16";
             this.bunifuTileButton16.Size = new System.Drawing.Size(126, 117);
             this.bunifuTileButton16.TabIndex = 18;
@@ -337,7 +339,7 @@
             this.bunifuTileButton15.LabelPosition = 36;
             this.bunifuTileButton15.LabelText = ".json Dosyası Seç";
             this.bunifuTileButton15.Location = new System.Drawing.Point(301, 159);
-            this.bunifuTileButton15.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.bunifuTileButton15.Margin = new System.Windows.Forms.Padding(7);
             this.bunifuTileButton15.Name = "bunifuTileButton15";
             this.bunifuTileButton15.Size = new System.Drawing.Size(143, 129);
             this.bunifuTileButton15.TabIndex = 19;
@@ -393,7 +395,7 @@
             // pathBox
             // 
             this.pathBox.Location = new System.Drawing.Point(248, 213);
-            this.pathBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pathBox.Margin = new System.Windows.Forms.Padding(2);
             this.pathBox.Name = "pathBox";
             this.pathBox.Size = new System.Drawing.Size(52, 20);
             this.pathBox.TabIndex = 3;
@@ -405,7 +407,7 @@
             this.katilimciTablosu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(69)))));
             this.katilimciTablosu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.katilimciTablosu.Location = new System.Drawing.Point(1199, 326);
-            this.katilimciTablosu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.katilimciTablosu.Margin = new System.Windows.Forms.Padding(2);
             this.katilimciTablosu.Name = "katilimciTablosu";
             this.katilimciTablosu.RowHeadersWidth = 51;
             this.katilimciTablosu.RowTemplate.Height = 24;
@@ -429,12 +431,42 @@
             this.yedekTablosu.Size = new System.Drawing.Size(600, 244);
             this.yedekTablosu.TabIndex = 15;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(307, 294);
+            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(158, 24);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Kazanan Listesi";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(307, 593);
+            this.label2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(135, 24);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Yedek Listesi";
+            // 
             // jsonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1443, 857);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.yedekTablosu);
             this.Controls.Add(this.katilimciTablosu);
             this.Controls.Add(this.pathBox);
@@ -498,5 +530,7 @@
         private System.Windows.Forms.TextBox pathBox;
         private System.Windows.Forms.DataGridView katilimciTablosu;
         private System.Windows.Forms.DataGridView yedekTablosu;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
