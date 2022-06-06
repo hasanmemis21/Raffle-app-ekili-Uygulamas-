@@ -158,5 +158,10 @@ namespace HASS_Group_v1._0
             }
             File.AppendAllText(fileName, "\n*** Çekiliş adil bir şekilde HASS Giveaway tarafından yapılmıştır. © ***");
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

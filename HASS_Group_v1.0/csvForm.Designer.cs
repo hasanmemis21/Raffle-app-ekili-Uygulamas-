@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(csvForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -70,9 +70,8 @@
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1924, 155);
+            this.panel3.Size = new System.Drawing.Size(1154, 126);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -81,10 +80,9 @@
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.AutoSize = true;
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.Location = new System.Drawing.Point(1702, 4);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
+            this.panel4.Location = new System.Drawing.Point(1276, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(163, 139);
+            this.panel4.Size = new System.Drawing.Size(122, 113);
             this.panel4.TabIndex = 2;
             // 
             // panel1
@@ -96,19 +94,17 @@
             this.panel1.Controls.Add(this.bunifuTileButton2);
             this.panel1.Controls.Add(this.bunifuTileButton1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 155);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(0, 126);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(253, 900);
+            this.panel1.Size = new System.Drawing.Size(190, 531);
             this.panel1.TabIndex = 3;
             // 
             // indicator
             // 
             this.indicator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(121)))), ((int)(((byte)(254)))));
-            this.indicator.Location = new System.Drawing.Point(0, 155);
-            this.indicator.Margin = new System.Windows.Forms.Padding(4);
+            this.indicator.Location = new System.Drawing.Point(0, 126);
             this.indicator.Name = "indicator";
-            this.indicator.Size = new System.Drawing.Size(13, 177);
+            this.indicator.Size = new System.Drawing.Size(10, 144);
             this.indicator.TabIndex = 1;
             this.indicator.TabStop = false;
             // 
@@ -126,10 +122,10 @@
             this.bunifuTileButton5.ImageZoom = 40;
             this.bunifuTileButton5.LabelPosition = 34;
             this.bunifuTileButton5.LabelText = "XML Formatında Çekiliş";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(0, 469);
-            this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bunifuTileButton5.Location = new System.Drawing.Point(0, 381);
+            this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuTileButton5.Name = "bunifuTileButton5";
-            this.bunifuTileButton5.Size = new System.Drawing.Size(253, 155);
+            this.bunifuTileButton5.Size = new System.Drawing.Size(190, 126);
             this.bunifuTileButton5.TabIndex = 5;
             this.bunifuTileButton5.Click += new System.EventHandler(this.bunifuTileButton5_Click);
             // 
@@ -147,10 +143,10 @@
             this.bunifuTileButton4.ImageZoom = 40;
             this.bunifuTileButton4.LabelPosition = 34;
             this.bunifuTileButton4.LabelText = "JSON Formatında Çekiliş";
-            this.bunifuTileButton4.Location = new System.Drawing.Point(0, 326);
-            this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bunifuTileButton4.Location = new System.Drawing.Point(0, 265);
+            this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuTileButton4.Name = "bunifuTileButton4";
-            this.bunifuTileButton4.Size = new System.Drawing.Size(253, 143);
+            this.bunifuTileButton4.Size = new System.Drawing.Size(190, 116);
             this.bunifuTileButton4.TabIndex = 4;
             this.bunifuTileButton4.Click += new System.EventHandler(this.bunifuTileButton4_Click);
             // 
@@ -168,10 +164,10 @@
             this.bunifuTileButton2.ImageZoom = 40;
             this.bunifuTileButton2.LabelPosition = 34;
             this.bunifuTileButton2.LabelText = "CSV Formatında Çekiliş";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(0, 177);
-            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.bunifuTileButton2.Location = new System.Drawing.Point(0, 144);
+            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuTileButton2.Name = "bunifuTileButton2";
-            this.bunifuTileButton2.Size = new System.Drawing.Size(253, 149);
+            this.bunifuTileButton2.Size = new System.Drawing.Size(190, 121);
             this.bunifuTileButton2.TabIndex = 2;
             this.bunifuTileButton2.Click += new System.EventHandler(this.bunifuTileButton2_Click);
             // 
@@ -190,9 +186,9 @@
             this.bunifuTileButton1.LabelPosition = 43;
             this.bunifuTileButton1.LabelText = "Çekiliş Yap";
             this.bunifuTileButton1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuTileButton1.Name = "bunifuTileButton1";
-            this.bunifuTileButton1.Size = new System.Drawing.Size(253, 177);
+            this.bunifuTileButton1.Size = new System.Drawing.Size(190, 144);
             this.bunifuTileButton1.TabIndex = 1;
             this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
             // 
@@ -202,10 +198,9 @@
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox4.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox4.Location = new System.Drawing.Point(1220, 305);
-            this.richTextBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.richTextBox4.Location = new System.Drawing.Point(915, 248);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(313, 49);
+            this.richTextBox4.Size = new System.Drawing.Size(235, 40);
             this.richTextBox4.TabIndex = 21;
             this.richTextBox4.Text = "Yedek Sayısı Seçiniz";
             this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
@@ -216,10 +211,9 @@
             this.kazananSayisi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.kazananSayisi.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.kazananSayisi.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.kazananSayisi.Location = new System.Drawing.Point(959, 266);
-            this.kazananSayisi.Margin = new System.Windows.Forms.Padding(4);
+            this.kazananSayisi.Location = new System.Drawing.Point(719, 216);
             this.kazananSayisi.Name = "kazananSayisi";
-            this.kazananSayisi.Size = new System.Drawing.Size(113, 36);
+            this.kazananSayisi.Size = new System.Drawing.Size(85, 29);
             this.kazananSayisi.TabIndex = 20;
             this.kazananSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.kazananSayisi.ValueChanged += new System.EventHandler(this.kazananSayisi_ValueChanged);
@@ -237,10 +231,10 @@
             this.bunifuTileButton24.ImageZoom = 50;
             this.bunifuTileButton24.LabelPosition = 36;
             this.bunifuTileButton24.LabelText = ".csv Dosyası Seç";
-            this.bunifuTileButton24.Location = new System.Drawing.Point(401, 196);
-            this.bunifuTileButton24.Margin = new System.Windows.Forms.Padding(9);
+            this.bunifuTileButton24.Location = new System.Drawing.Point(301, 159);
+            this.bunifuTileButton24.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.bunifuTileButton24.Name = "bunifuTileButton24";
-            this.bunifuTileButton24.Size = new System.Drawing.Size(207, 151);
+            this.bunifuTileButton24.Size = new System.Drawing.Size(155, 123);
             this.bunifuTileButton24.TabIndex = 19;
             this.bunifuTileButton24.Click += new System.EventHandler(this.bunifuTileButton24_Click);
             // 
@@ -257,27 +251,26 @@
             this.bunifuTileButton3.ImageZoom = 50;
             this.bunifuTileButton3.LabelPosition = 36;
             this.bunifuTileButton3.LabelText = "Katılımcı Sayısı";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(2276, 170);
-            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuTileButton3.Location = new System.Drawing.Point(1707, 138);
+            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuTileButton3.Name = "bunifuTileButton3";
-            this.bunifuTileButton3.Size = new System.Drawing.Size(168, 144);
+            this.bunifuTileButton3.Size = new System.Drawing.Size(126, 117);
             this.bunifuTileButton3.TabIndex = 18;
             // 
             // kazananTablo
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kazananTablo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kazananTablo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.kazananTablo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.kazananTablo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
             this.kazananTablo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.kazananTablo.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.kazananTablo.Location = new System.Drawing.Point(415, 401);
-            this.kazananTablo.Margin = new System.Windows.Forms.Padding(4);
+            this.kazananTablo.Location = new System.Drawing.Point(311, 326);
             this.kazananTablo.Name = "kazananTablo";
             this.kazananTablo.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
-            this.kazananTablo.RowsDefaultCellStyle = dataGridViewCellStyle2;
-            this.kazananTablo.Size = new System.Drawing.Size(800, 677);
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(75)))), ((int)(((byte)(82)))));
+            this.kazananTablo.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.kazananTablo.Size = new System.Drawing.Size(600, 550);
             this.kazananTablo.TabIndex = 15;
             // 
             // label1
@@ -287,10 +280,10 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(1028, 428);
-            this.label1.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.label1.Location = new System.Drawing.Point(771, 348);
+            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 33);
+            this.label1.Size = new System.Drawing.Size(130, 24);
             this.label1.TabIndex = 17;
             this.label1.Text = "Çekiliş Listesi";
             // 
@@ -300,10 +293,9 @@
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox3.ForeColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox3.Location = new System.Drawing.Point(984, 305);
-            this.richTextBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.richTextBox3.Location = new System.Drawing.Point(738, 248);
             this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(313, 49);
+            this.richTextBox3.Size = new System.Drawing.Size(235, 40);
             this.richTextBox3.TabIndex = 16;
             this.richTextBox3.Text = "Şanslı Sayısı Seçiniz";
             // 
@@ -320,10 +312,10 @@
             this.bunifuTileButton9.ImageZoom = 50;
             this.bunifuTileButton9.LabelPosition = 36;
             this.bunifuTileButton9.LabelText = "Yeni Çekiliş";
-            this.bunifuTileButton9.Location = new System.Drawing.Point(781, 196);
-            this.bunifuTileButton9.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.bunifuTileButton9.Location = new System.Drawing.Point(586, 159);
+            this.bunifuTileButton9.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuTileButton9.Name = "bunifuTileButton9";
-            this.bunifuTileButton9.Size = new System.Drawing.Size(171, 159);
+            this.bunifuTileButton9.Size = new System.Drawing.Size(128, 129);
             this.bunifuTileButton9.TabIndex = 15;
             // 
             // bunifuTileButton10
@@ -339,10 +331,10 @@
             this.bunifuTileButton10.ImageZoom = 50;
             this.bunifuTileButton10.LabelPosition = 36;
             this.bunifuTileButton10.LabelText = "Çekilişi Başlat";
-            this.bunifuTileButton10.Location = new System.Drawing.Point(585, 196);
-            this.bunifuTileButton10.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.bunifuTileButton10.Location = new System.Drawing.Point(439, 159);
+            this.bunifuTileButton10.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuTileButton10.Name = "bunifuTileButton10";
-            this.bunifuTileButton10.Size = new System.Drawing.Size(204, 159);
+            this.bunifuTileButton10.Size = new System.Drawing.Size(153, 129);
             this.bunifuTileButton10.TabIndex = 14;
             this.bunifuTileButton10.Click += new System.EventHandler(this.bunifuTileButton10_Click);
             // 
@@ -353,10 +345,10 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(2345, 315);
-            this.label2.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.label2.Location = new System.Drawing.Point(1759, 256);
+            this.label2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 70);
+            this.label2.Size = new System.Drawing.Size(25, 54);
             this.label2.TabIndex = 13;
             this.label2.Text = "0\r\n\r\n";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -367,10 +359,9 @@
             this.yedekSayisi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.yedekSayisi.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.yedekSayisi.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.yedekSayisi.Location = new System.Drawing.Point(1271, 262);
-            this.yedekSayisi.Margin = new System.Windows.Forms.Padding(4);
+            this.yedekSayisi.Location = new System.Drawing.Point(953, 213);
             this.yedekSayisi.Name = "yedekSayisi";
-            this.yedekSayisi.Size = new System.Drawing.Size(113, 36);
+            this.yedekSayisi.Size = new System.Drawing.Size(85, 29);
             this.yedekSayisi.TabIndex = 9;
             this.yedekSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -381,10 +372,10 @@
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(1607, 352);
-            this.label6.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.label6.Location = new System.Drawing.Point(1205, 286);
+            this.label6.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(176, 33);
+            this.label6.Size = new System.Drawing.Size(130, 24);
             this.label6.TabIndex = 22;
             this.label6.Text = "Çekiliş Listesi";
             // 
@@ -401,18 +392,19 @@
             this.bunifuTileButton6.ImageZoom = 50;
             this.bunifuTileButton6.LabelPosition = 36;
             this.bunifuTileButton6.LabelText = "Çıktı Al";
-            this.bunifuTileButton6.Location = new System.Drawing.Point(1308, 993);
-            this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.bunifuTileButton6.Location = new System.Drawing.Point(981, 807);
+            this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuTileButton6.Name = "bunifuTileButton6";
-            this.bunifuTileButton6.Size = new System.Drawing.Size(133, 123);
+            this.bunifuTileButton6.Size = new System.Drawing.Size(100, 100);
             this.bunifuTileButton6.TabIndex = 23;
             this.bunifuTileButton6.Click += new System.EventHandler(this.bunifuTileButton6_Click);
             // 
             // pathBox
             // 
-            this.pathBox.Location = new System.Drawing.Point(289, 292);
+            this.pathBox.Location = new System.Drawing.Point(217, 237);
+            this.pathBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pathBox.Name = "pathBox";
-            this.pathBox.Size = new System.Drawing.Size(100, 22);
+            this.pathBox.Size = new System.Drawing.Size(76, 20);
             this.pathBox.TabIndex = 24;
             this.pathBox.Visible = false;
             // 
@@ -421,11 +413,12 @@
             this.katilimciTablo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.katilimciTablo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(50)))), ((int)(((byte)(69)))));
             this.katilimciTablo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.katilimciTablo.Location = new System.Drawing.Point(1599, 401);
+            this.katilimciTablo.Location = new System.Drawing.Point(1199, 326);
+            this.katilimciTablo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.katilimciTablo.Name = "katilimciTablo";
             this.katilimciTablo.RowHeadersWidth = 51;
             this.katilimciTablo.RowTemplate.Height = 24;
-            this.katilimciTablo.Size = new System.Drawing.Size(799, 676);
+            this.katilimciTablo.Size = new System.Drawing.Size(599, 549);
             this.katilimciTablo.TabIndex = 15;
             // 
             // openFileDialog1
@@ -434,10 +427,10 @@
             // 
             // csvForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.ClientSize = new System.Drawing.Size(1154, 657);
             this.Controls.Add(this.katilimciTablo);
             this.Controls.Add(this.pathBox);
             this.Controls.Add(this.bunifuTileButton6);
@@ -455,9 +448,11 @@
             this.Controls.Add(this.yedekSayisi);
             this.Controls.Add(this.bunifuTileButton9);
             this.Controls.Add(this.richTextBox3);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "csvForm";
-            this.Text = "v";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+            this.Text = "CSV";
             this.Load += new System.EventHandler(this.csvForm_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
